@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/keen-slider@4.1.5/keen-slider.min.css"
+      href="https://cdn.jsdelivr.net/npm/keen-slider@4.1.3/keen-slider.min.css"
     />
 
     <style>
@@ -37,62 +37,39 @@
       }
 
       .number-slide1 {
-        background: rgb(64, 175, 255);
-        background: linear-gradient(
-          128deg,
-          rgba(64, 175, 255, 1) 0%,
-          rgba(63, 97, 255, 1) 100%
-        );
+        background-image: url("https://cdn.pixabay.com/photo/2020/06/18/11/27/landscape-5313115_1280.jpg");
+        background-size: cover;  
+
       }
 
       .number-slide2 {
-        background: rgb(255, 75, 64);
-        background: linear-gradient(
-          128deg,
-          rgba(255, 154, 63, 1) 0%,
-          rgba(255, 75, 64, 1) 100%
-        );
+        background-image: url("https://cdn.pixabay.com/photo/2020/06/21/09/48/hill-5324149_1280.jpg");
+        background-size: cover;  
+
       }
 
       .number-slide3 {
-        background: rgb(182, 255, 64);
-        background: linear-gradient(
-          128deg,
-          rgba(182, 255, 64, 1) 0%,
-          rgba(63, 255, 71, 1) 100%
-        );
-        background: linear-gradient(
-          128deg,
-          rgba(189, 255, 83, 1) 0%,
-          rgba(43, 250, 82, 1) 100%
-        );
+        background-image: url("https://cdn.pixabay.com/photo/2020/06/14/09/27/seagull-5297122_1280.jpg");
+        background-size: cover;  
+
+
       }
 
       .number-slide4 {
-        background: rgb(64, 255, 242);
-        background: linear-gradient(
-          128deg,
-          rgba(64, 255, 242, 1) 0%,
-          rgba(63, 188, 255, 1) 100%
-        );
+        background-image: url("https://cdn.pixabay.com/photo/2020/06/17/19/20/gorge-5310788_1280.jpg");
+        background-size: cover;  
+
       }
 
       .number-slide5 {
-        background: rgb(255, 64, 156);
-        background: linear-gradient(
-          128deg,
-          rgba(255, 64, 156, 1) 0%,
-          rgba(255, 63, 63, 1) 100%
-        );
+        background-image: url("https://cdn.pixabay.com/photo/2016/10/11/12/53/black-headed-gulls-1731511_1280.jpg"); 
+        background-size: cover;  
+
       }
       .number-slide6 {
-        background: rgb(64, 76, 255);
-        background: linear-gradient(
-          128deg,
-          rgba(64, 76, 255, 1) 0%,
-          rgba(174, 63, 255, 1) 100%
-        );
-      }
+        background-image: url("https://cdn.pixabay.com/photo/2020/06/20/01/43/lake-5319354_1280.jpg");
+        background-size: cover;  
+              }
     </style>
   </head>
 
@@ -116,8 +93,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/keen-slider@4.1.3/keen-slider.min.js"></script>
     <script>
-      var slider = new KeenSlider("#my-keen-slider", { loop: true });
+      var slider = new KeenSlider("#my-keen-slider", { slidesPerView: 2 ,loop: true});
     </script>
-  <script src="usefetch.js" ></script>
-</body>
+  </body>
 </html>
